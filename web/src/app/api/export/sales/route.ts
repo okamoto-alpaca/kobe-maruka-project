@@ -18,7 +18,7 @@ export async function GET() {
         // 2. Fetch Related Data (Parents & Allocations)
         // Optimization: Deduplicate IDs to minimize reads
         const parentIds = [...new Set(details.map(d => d.parentId))];
-        const allocationIds = [...new Set(details.map(d => d.allocationId).filter(id => id) as string[])];
+        const allocationIds = [...new Set(details.map(d => (d as any).allocationId).filter(id => id) as string[])];
 
         // Fetch Parents
         const parents: Record<string, FaxDocument> = {};
@@ -44,7 +44,7 @@ export async function GET() {
         const header = "出荷元,商品,等階級,取引先,数量,単価,金額\n";
         const rows = details.map(d => {
             const parent = parents[d.parentId];
-            const allocation = d.allocationId ? allocations[d.allocationId] : null;
+            const allocation = (d as any).allocationId ? allocations[(d as any).allocationId] : null;
 
             const origin = parent?.originName || '';
             const product = d.productName || '';

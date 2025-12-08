@@ -76,7 +76,8 @@ export async function POST(req: NextRequest) {
             return { status, allocatedTotal };
         });
 
-        return NextResponse.json({ status: "success", ...result });
+        // return NextResponse.json({ status: "success", ...result });
+        return NextResponse.json({ ...result, status: "success" });
 
     } catch (error: any) {
         console.error("Allocate API Error:", error);

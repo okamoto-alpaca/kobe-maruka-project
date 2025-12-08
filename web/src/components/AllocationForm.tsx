@@ -69,7 +69,7 @@ export default function AllocationForm({ selectedDetailId, details }: Allocation
                         id: data.allocationId,
                         customerName: currentCustomer,
                         allocatedAt: { seconds: Date.now() / 1000, nanoseconds: 0 } as any
-                    }
+                    } as any,
                 });
                 setShowPrintModal(true);
             }
