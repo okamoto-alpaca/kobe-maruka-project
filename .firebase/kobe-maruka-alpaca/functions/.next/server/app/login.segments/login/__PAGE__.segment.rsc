@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[48252,["/_next/static/chunks/d3b57d3cd7be0501.js"],"ClientPageRoot"]
+3:I[7318,["/_next/static/chunks/41b822cb4f78ca44.js","/_next/static/chunks/963263e58e864b66.js","/_next/static/chunks/f99eaa33cfacca3c.js"],"default"]
+6:I[57193,["/_next/static/chunks/d3b57d3cd7be0501.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"BMFfA0B5cbxxtz_QDNlud","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/f99eaa33cfacca3c.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null

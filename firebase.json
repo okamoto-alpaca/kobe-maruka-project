@@ -1,0 +1,32 @@
+{
+    "emulators": {
+        "host": "127.0.0.1",
+        "firestore": {
+            "port": 8080
+        },
+        "auth": {
+            "port": 9099
+        },
+        "ui": {
+            "enabled": true,
+            "port": 4000
+        },
+        "storage": {
+            "port": 9199
+        }
+    },
+    "storage": {
+        "rules": "storage.rules"
+    },
+    "hosting": {
+        "source": "web",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "frameworksBackend": {
+            "region": "asia-northeast1"
+        }
+    }
+}
