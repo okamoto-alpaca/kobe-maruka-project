@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/projects/kobe-maruka-project/web/src/app/globals.css"],"sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n:root {\n  --foreground-rgb: 0, 0, 0;\n  --background-start-rgb: 255, 255, 255;\n  --background-end-rgb: 255, 255, 255;\n}\n\nbody {\n  color: rgb(var(--foreground-rgb));\n  background: linear-gradient(\n      to bottom,\n      transparent,\n      rgb(var(--background-end-rgb))\n    )\n    rgb(var(--background-start-rgb));\n}\n\n/* Print Styles - The \"Nuclear Option\" */\n@media print {\n  /* Hide everything by default */\n  body * {\n    visibility: hidden;\n  }\n\n  /* Only show the print area */\n  #print-area, #print-area * {\n    visibility: visible;\n  }\n\n  /* Position the print area at the top-left */\n  #print-area {\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n  }\n\n  /* Remove browser headers/footers */\n  @page {\n    margin: 0;\n    size: auto;\n  }\n}\n"],"names":[],"mappings":"AAAA;;AACA;;AACA;;AAEA;;;;;;AAMA;;;;;AAWA;EAEE;;;;EAKA;;;;EAKA;;;;;;;;;EAUA"}}]
+}

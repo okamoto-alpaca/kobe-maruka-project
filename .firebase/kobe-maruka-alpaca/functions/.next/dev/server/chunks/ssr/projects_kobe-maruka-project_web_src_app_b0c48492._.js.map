@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/%E5%B2%A1%E6%9C%AC%E3%80%80%E6%99%83%E4%B8%80/projects/kobe-maruka-project/web/src/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,0LAAG;IAAE,OAAO;IAAK,QAAQ;AAAI"}}]
+}

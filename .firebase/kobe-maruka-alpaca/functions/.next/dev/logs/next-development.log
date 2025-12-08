@@ -1,0 +1,19 @@
+[00:00:01.321] Server  LOG      ✓ Ready in 891ms
+[00:00:22.995] Server  INFO    WARNING: You are using the Auth Emulator, which is intended for local testing only.  Do not use with production credentials.
+[00:00:22.996] Server  LOG     Connected to Auth & Firestore Emulators
+[00:00:23.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.289] Browser INFO    WARNING: You are using the Auth Emulator, which is intended for local testing only.  Do not use with production credentials.
+[00:00:23.289] Browser LOG     Connected to Auth & Firestore Emulators
+[00:02:13.801] Browser WARN    AG Grid: As of version 32.2.1, using `rowSelection` with the values "single" or "multiple" has been deprecated. Use the object value instead.
+[00:03:57.898] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:58.110] Browser INFO    WARNING: You are using the Auth Emulator, which is intended for local testing only.  Do not use with production credentials.
+[00:03:58.110] Browser LOG     Connected to Auth & Firestore Emulators
+[00:03:58.111] Browser WARN    AG Grid: As of version 32.2.1, using `rowSelection` with the values "single" or "multiple" has been deprecated. Use the object value instead.
+[00:04:25.900] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:26.102] Browser INFO    WARNING: You are using the Auth Emulator, which is intended for local testing only.  Do not use with production credentials.
+[00:04:26.102] Browser LOG     Connected to Auth & Firestore Emulators
+[00:04:26.102] Browser WARN    AG Grid: As of version 32.2.1, using `rowSelection` with the values "single" or "multiple" has been deprecated. Use the object value instead.
+[00:04:29.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:29.546] Browser INFO    WARNING: You are using the Auth Emulator, which is intended for local testing only.  Do not use with production credentials.
+[00:04:29.546] Browser LOG     Connected to Auth & Firestore Emulators
+[00:04:29.668] Browser WARN    AG Grid: As of version 32.2.1, using `rowSelection` with the values "single" or "multiple" has been deprecated. Use the object value instead.
